@@ -47,7 +47,7 @@ const buttonVariant = computed(() => {
     case "outlined":
       return `border-2 border-${color} text-${color} hover:bg-${color} hover:text-white`;
     case "link":
-      return `text-${color} hover:text-${color}-dark hover:border-b-2 hover:border-${color} rounded-none hover:pb-[2px]`;
+      return `text-${color} hover:text-${color}-dark px-0 hover:border-b-2 hover:border-${color} rounded-none hover:pb-[2px]`;
     case "ghost":
       return `text-${color} hover:bg-${color} hover:text-white`;
     default:
@@ -60,13 +60,11 @@ const buttonVariant = computed(() => {
   <NuxtLink
     v-if="!loading"
     :to="props?.to"
-    class="flex gap-2 px-3 pb-1 pt-[5px] font-bold rounded cursor-pointer w-fit"
+    class="flex gap-2 px-3 pb-1 items-center pt-[5px] font-bold rounded cursor-pointer w-fit"
     :class="[buttonVariant, props?.iconRight ? 'flex-row-reverse' : 'flex-row']"
   >
     <!-- TODO: Make component -->
-    <span v-if="props?.icon" class="font-regular font-icon">{{
-      props?.icon
-    }}</span>
+    <Icon v-if="props?.icon" class="font-reqular" :name="props.icon" />
 
     {{ props?.title }}
   </NuxtLink>

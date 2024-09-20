@@ -10,11 +10,18 @@
           echt dringend nodig is gaf hij als antwoord: “Mijn zorg gaat uit naar
           mijn bevolking en vooral onze kinderen. Zij zijn ernstig
           getraumatiseerd en vol met angst en onzekerheid. Wat we nodig hebben
-          is semi-permanente huisvesting waarin we vooral kinderen door
-          professionals kunnen laten “behandelen”. In soms een één op één
-          setting en soms met elkaar. Hierin willen wij hen leren verwerken met
-          wat er gebeurd is en hun het geloof teruggeven in hun zelf en de
-          toekomst van Sderot en Israël.”
+          is
+          <span class="text-tertiary font-semibold"
+            >semi-permanente huisvesting</span
+          >
+          waarin we vooral kinderen door professionals kunnen
+          <span class="text-tertiary font-semibold">laten</span>
+          “behandelen”. In soms een één op één setting en soms met
+          <span class="text-tertiary font-semibold">elkaar</span>. Hierin willen
+          wij hen leren verwerken
+          <span class="text-tertiary font-semibold line-through">met</span> wat
+          er gebeurd is en hun het geloof teruggeven in hun zelf en de toekomst
+          van Sderot en Israël.”
         </p>
       </div>
 

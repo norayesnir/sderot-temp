@@ -1,3 +1,8 @@
+<script setup lang="ts">
+const route = useRoute();
+const currentRoute = route.name;
+</script>
+
 <template>
   <section class="relative py-20 container">
     <div class="flex flex-col md:grid grid-cols-12 gap-6">
@@ -17,6 +22,16 @@
           die door de stad reden. Uiteindelijk troffen wij net buiten de stad op
           een heuvel de gehele samengekomen wereldpers aan.
         </p>
+        <AtomsButton
+          v-if="currentRoute != 'oprichting'"
+          to="/oprichting"
+          class="mt-4"
+          title="Lees meer"
+          color="primary"
+          type="link"
+          icon="material-symbols:north-east-rounded"
+          iconRight
+        />
       </div>
       <div class="col-start-8 col-span-6">
         <NuxtImg
