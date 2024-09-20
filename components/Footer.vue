@@ -8,7 +8,7 @@ const currentYear = new Date().getFullYear();
     <div class="container @container text-white">
       <div class="flex flex-col grid-cols-12 gap-6 @3xl:grid">
         <div class="flex flex-col col-span-4 gap-4 mb-4">
-          <h1 class="text-[30px] leading-none">SDEROT</h1>
+          <h1 class="text-[30px] leading-none font-semibold">SDEROT</h1>
 
           <address class="not-italic">
             <div class="flex items-center gap-1 py-1 rounded w-fit">

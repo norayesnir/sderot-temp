@@ -8,7 +8,7 @@ const currentRoute = route.name;
     <div class="flex flex-col md:grid grid-cols-12 gap-6">
       <div class="col-span-5">
         <div class="flex flex-col mb-4">
-          <h2>Oprichting</h2>
+          <h2 class="h2 font-bold">Oprichting</h2>
           <AtomsSubtitle
             subtitle="De verschrikkingen van 7 oktober 2023"
             class="text-lg"

@@ -8,7 +8,7 @@ const address = "nederland";
       <div class="flex flex-col @4xl:grid grid-cols-12 gap-6">
         <div class="col-span-5">
           <AtomsSubtitle subtitle="Contact" />
-          <h1 class="h2">Neem contact op!</h1>
+          <h1 class="h2 font-bold">Neem contact op!</h1>
           <p>
             Neem gerust contact met ons op voor verdere informatie of als je
             vragen hebt. We helpen je graag verder!

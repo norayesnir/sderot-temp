@@ -7,7 +7,7 @@ const currentRoute = route.name;
   <section class="relative py-20 container">
     <div class="flex flex-col grid grid-cols-12 gap-6">
       <div class="col-span-8">
-        <h2>Wie zijn wij?</h2>
+        <h2 class="h2 font-bold">Wie zijn wij?</h2>
         <p class="mb-4">
           Ons bestuur bestaat uit drie toegewijde leden: Herman (Menachem)
           Volders (oprichter), Johan Alblas (oprichter) en Jochem Stolk

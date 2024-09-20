@@ -3,7 +3,7 @@
     <div class="flex flex-col md:grid grid-cols-12 gap-6">
       <div class="col-span-8">
         <div class="flex flex-col mb-4">
-          <h1>Stichting Sderot</h1>
+          <h1 class="h1 font-bold">Stichting Sderot</h1>
           <AtomsSubtitle
             subtitle="Wij zetten ons in voor kinderen met een trauma."
             class="text-lg"

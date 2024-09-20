@@ -16,7 +16,7 @@ const props = defineProps<{
         />
       </div>
       <div class="col-span-5 col-start-8">
-        <h5 class="font-bold">{{ props?.title }}</h5>
+        <h5 class="h5 font-bold">{{ props?.title }}</h5>
         <slot />
       </div>
     </div>

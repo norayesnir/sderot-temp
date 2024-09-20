@@ -3,7 +3,7 @@
     <section class="relative pt-20 container">
       <div class="flex flex-col grid grid-cols-12 gap-6">
         <div class="col-span-8">
-          <h1>Wie zijn wij?</h1>
+          <h1 class="h2 font-bold">Wie zijn wij?</h1>
           <p class="mb-4">
             Ons bestuur bestaat uit drie toegewijde leden: Herman (Menachem)
             Volders (oprichter), Johan Alblas (oprichter) en Jochem Stolk
